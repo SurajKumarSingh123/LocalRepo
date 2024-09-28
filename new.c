@@ -26,7 +26,6 @@ int main(){
 
 int main(){
     int x[5]= {176,2,7,12,45};
-    
     int *p;
       p=x;
     printf("%d",*(p+3));
