@@ -1,4 +1,7 @@
 #include<stdio.h>
+
+
+/*
 int main(){
     int i=10;
     int j=10;
@@ -14,6 +17,19 @@ int main(){
         printf("\n");
         
     }
+    return 0;
+
+}
+
+*/
+
+
+int main(){
+    int x[5]= {176,2,7,12,45};
+    
+    int *p;
+      p=x;
+    printf("%d",*(p+3));
     return 0;
 
 }
